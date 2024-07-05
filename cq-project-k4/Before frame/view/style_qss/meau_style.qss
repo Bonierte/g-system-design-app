@@ -1,0 +1,46 @@
+QMenuBar {
+    background: none; /* 背景色 */
+    height: 28px; /* 设置菜单栏高度 */
+}
+
+QPushButton {
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 13px;
+    padding: 0px;
+}
+
+QPushButton:hover {
+    background-color: lightgray;
+}
+
+QPushButton:pressed {
+    background-color: darkgray;
+}
+
+/* 内部窗口样式 */
+QWidget#inner_window{
+    background-color: #ebebeb; /* 灰色 */
+    border: 2px solid #404040; /* 淡蓝色边框 */
+    border-radius: 5px;
+    padding: 10px;
+}
+/* 内部窗口标题标签样式 */
+QWidget#inner_window QLabel#inner_label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    margin: 2px;  /* 外边距 */
+    padding: 5px;  /* 内边距 */
+    background-color: #d3d3d3;  /* 灰色背景 */
+    min-width: 235px;  /* 标签最小宽度 */
+    text-align: left; /* 内容左对齐 */
+    border: 1px solid #404040;
+}
+
+
+QWidget#design_tool {
+    background-color: #dbdbdb;
+    border: 2px solid black;
+}

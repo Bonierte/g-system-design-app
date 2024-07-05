@@ -1,0 +1,18 @@
+/* toolbars.qss */
+QToolBar QToolButton {
+    color: black;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    background-color: none;
+}
+
+QToolBar QToolButton:hover {
+    background-color: lightgray;
+}
+
+QToolBar QToolButton:pressed {
+    background-color: gray;
+}
+
